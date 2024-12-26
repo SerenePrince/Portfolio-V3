@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply text-white;
+    @apply bg-purple-300;
+    scroll-behavior: smooth;
+  }
+}
+
+:root {
+  --primary-color: #fff;
+  --fade-delay: 0.5s;
+  --fade-duration: 0.5s;
+}
+
+@keyframes expandUnderline {
+  0% {
+    width: 0;
+    left: 50%;
+  }
+  100% {
+    width: 100%;
+    left: 0;
+  }
+}
+
+.underline {
+  position: relative;
+  text-decoration: none;
+  color: var(--primary-color);
+  display: inline-block;
+}
+
+.underline::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary-color);
+  transition: width 0.3s ease-out;
+}
+
+.active::after {
+  width: 100%;
+  animation: expandUnderline 0.3s ease-out forwards;
+}
+
+@keyframes fadeInFromDirection {
+  0% {
+    opacity: 0;
+    transform: translate(var(--fade-direction-x), var(--fade-direction-y));
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+.fade-in {
+  --fade-direction-x: 0;
+  --fade-direction-y: 0;
+  animation: fadeInFromDirection var(--fade-duration) ease-out forwards;
+}
+
+.fade-in-top {
+  --fade-direction-x: 0;
+  --fade-direction-y: -50%;
+  animation: fadeInFromDirection var(--fade-duration) ease-out forwards;
+}
+
+.fade-in-bottom {
+  --fade-direction-x: 0;
+  --fade-direction-y: 50%;
+  animation: fadeInFromDirection var(--fade-duration) ease-out forwards;
+}
+
+.fade-in-left {
+  --fade-direction-x: -50%;
+  --fade-direction-y: 0;
+  animation: fadeInFromDirection var(--fade-duration) ease-out forwards;
+}
+
+.fade-in-right {
+  --fade-direction-x: 50%;
+  --fade-direction-y: 0;
+  animation: fadeInFromDirection var(--fade-duration) ease-out forwards;
+}
