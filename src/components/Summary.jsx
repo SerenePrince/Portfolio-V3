@@ -17,7 +17,7 @@ function Summary() {
       </div>
       <div className="lg:w-1/3 w-full bg-black rounded-lg bg-opacity-50 fade-in p-3">
         <img
-          src="/images/about_profile.png"
+          src="./images/about_profile.png"
           alt="Noah's profile picture"
           className="rounded-lg object-cover w-full h-full"
         />

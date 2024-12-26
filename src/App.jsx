@@ -9,15 +9,15 @@ function App() {
   return (
     <div
       className="bg-cover bg-center bg-no-repeat bg-fixed h-screen w-full"
-      style={{ backgroundImage: "url('/images/background_image.jpg')" }}
+      style={{ backgroundImage: "url('./images/background_image.jpg')" }}
     >
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/noahpn" element={<Home />} />
+        <Route path="/noahpn/home" element={<Home />} />
+        <Route path="/noahpn/about" element={<About />} />
+        <Route path="/noahpn/projects" element={<Projects />} />
+        <Route path="/noahpn/contact" element={<Contact />} />
       </Routes>
     </div>
   );

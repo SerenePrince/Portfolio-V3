@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const Logo = ({ url, name }) => (
   <div className="inline-flex items-center gap-2">
-    <img src={`/images/${url}`} className="w-8 h-8" alt={name} />
+    <img src={`./images/${url}`} className="w-8 h-8" alt={name} />
     <p className="text-sm">{name}</p>
   </div>
 );

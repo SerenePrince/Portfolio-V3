@@ -5,7 +5,7 @@ const Project = ({ url, title, description, skills, github, demo }) => {
   return (
     <div className="bg-black bg-opacity-50 rounded-lg p-3">
       <img
-        src={`/images/${url}`}
+        src={`./images/${url}`}
         alt={`Project thumbnail for ${title}`}
         className="rounded-lg mb-3"
       />

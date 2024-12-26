@@ -35,7 +35,7 @@ function Contact() {
         {/* Footer Section */}
         <div className="flex flex-col text-center text-sm p-3 items-center align-middle">
           <img
-            src="/images/contact_cassie.jpg"
+            src="./images/contact_cassie.jpg"
             alt="A photo of Cassie the cat, looking rather displeased."
             className="rounded-lg lg:w-1/3 sm:w-1/2"
           ></img>

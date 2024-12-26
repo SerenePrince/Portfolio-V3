@@ -13,7 +13,7 @@ function Home() {
         <div className="flex lg:flex-row flex-col items-center  text-center gap-3">
           <img
             className="w-1/2 h-auto rounded-lg fade-in-left"
-            src="/images/home_profile.jpg"
+            src="./images/home_profile.jpg"
             alt="Noah Park-Nguyen portrait"
           />
           <div className="text-left">
@@ -32,7 +32,7 @@ function Home() {
               contribute my skills as a programmer.
             </p>
             <a
-              href="/documents/NoahPN_Resume_2025.pdf"
+              href="./documents/NoahPN_Resume_2025.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-2 py-2 rounded bg-purple-300 hover:bg-white hover:text-purple-300 transition mt-2 fade-in-right inline-flex items-center gap-1"
