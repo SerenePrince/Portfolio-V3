@@ -19,7 +19,7 @@ function Summary() {
         <img
           src="./images/about_profile.png"
           alt="Noah's profile picture"
-          className="rounded-lg object-cover w-full h-full"
+          className="rounded-lg object-cover w-full"
         />
       </div>
     </div>
