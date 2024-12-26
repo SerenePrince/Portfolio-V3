@@ -2,10 +2,10 @@ function Summary() {
   return (
     <div className="flex flex-col lg:flex-row gap-3">
       <div className="lg:w-2/3 w-full bg-black bg-opacity-50 p-3 rounded-lg fade-in-top">
-        <h1 className="font-bold text-xl text-center text-purple-300">
+        <h1 className="font-bold text-lg text-center text-purple-300">
           About Me!
         </h1>
-        <p>
+        <p className="text-sm">
           I&apos;m a software developer based in Ottawa and a current student at
           Algonquin College. I specialize in back-end development, but
           occasionally venture into in full-stack for fun. I like to code,
@@ -19,7 +19,7 @@ function Summary() {
         <img
           src="./images/about_profile.png"
           alt="Noah's profile picture"
-          className="rounded-lg object-cover w-full"
+          className="rounded-lg object-cover w-full h-full"
         />
       </div>
     </div>

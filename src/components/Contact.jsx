@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div className="flex justify-center items-center p-3">
       <div className="bg-black bg-opacity-50 rounded-lg p-3 lg:w-1/2 sm:w-full fade-in ">
-        <h1 className="font-bold text-3xl text-center text-purple-300 mb-6">
+        <h1 className="font-bold text-3xl text-center text-purple-300 mb-2">
           Let&apos;s Connect!
         </h1>
         <div className="flex space-x-5 justify-center text-center">

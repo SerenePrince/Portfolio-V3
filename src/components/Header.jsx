@@ -11,7 +11,7 @@ function Header() {
   ];
 
   return (
-    <header className="flex justify-center p-5 fade-in bg-black bg-opacity-50">
+    <header className="flex justify-center p-3 fade-in bg-black bg-opacity-50">
       <nav>
         <ul className="flex space-x-5">
           {navLinks.map(({ path, label }) => (
