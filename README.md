@@ -15,36 +15,14 @@ Welcome to my portfolio website! This project showcases my skills, projects, and
 - **Hosting**: GitHub Pages
 - **Icons**: React Icons (Font Awesome 6)
 
-## Installation
-
-If you'd like to run the project locally:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/SerenePrince/noahpn.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd portfolio
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Start the development server:
-   ```bash
-   npm start
-   ```
-5. Open your browser and go to `http://localhost:[PORT]`.
-
 ## Structure
 
 ```
 public/
   images/       # Contains site assets (e.g., background, cat photo)
+  documents/    # Contains site documents (e.g., resume)
 src/
   components/   # Reusable React components (Header, Home, About, Projects, Contact)
-  styles/       # CSS or Tailwind-specific styles
   App.js        # Main application file
   index.js      # Entry point
 ```
@@ -54,19 +32,6 @@ src/
 - **Responsive Design**: Fully responsive for mobile, tablet, and desktop views.
 - **Animation**: Smooth fade-in effects and hover transitions for a polished feel.
 - **Personal Touch**: Includes a humorous tone and a picture of my cat, Cassie.
-
-## Deployment
-
-The portfolio is hosted using GitHub Pages. To redeploy:
-
-1. Build the project:
-   ```bash
-   npm run build
-   ```
-2. Deploy to GitHub Pages:
-   ```bash
-   npm run deploy
-   ```
 
 ## Acknowledgements
 
