@@ -13,11 +13,11 @@ function App() {
     >
       <Header />
       <Routes>
-        <Route path="/noahpn" element={<Home />} />
-        <Route path="/noahpn/home" element={<Home />} />
-        <Route path="/noahpn/about" element={<About />} />
-        <Route path="/noahpn/projects" element={<Projects />} />
-        <Route path="/noahpn/contact" element={<Contact />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );
