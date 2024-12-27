@@ -3,15 +3,14 @@ function Summary() {
     <div className="flex flex-col lg:flex-row gap-3">
       <div className="lg:w-2/3 w-full bg-black bg-opacity-50 p-3 rounded-lg fade-in-top">
         <h1 className="font-bold text-lg text-center text-purple-300">
-          About Me!
+          Who Am I?
         </h1>
         <p className="text-sm">
-          I&apos;m a software developer based in Ottawa and a current student at
-          Algonquin College. I specialize in back-end development, but
-          occasionally venture into in full-stack for fun. I like to code,
-          create apps, and keep my wits sharp by learning new things. I love
-          starting new projects—almost as much as I love leaving them
-          unfinished. Right now, I&apos;m seeking opportunities in development
+          Hey, I&apos;m Noah, a software developer and student at Algonquin
+          College. I specialize in back-end development, but know my way around
+          some full-stack as well. In my spare time I like to code, game, and
+          play volleyball. I love starting new projects—almost as much as I love
+          leaving them unfinished. I&apos;m seeking opportunities in development
           or IT support, and I&apos;m open to both remote and on-site roles.
         </p>
       </div>

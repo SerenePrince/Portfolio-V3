@@ -60,7 +60,6 @@ function App() {
       <Header />
       <Routes>
         <Route path="/noahpn" element={<Home />} />
-        <Route path="/noahpn/home" element={<Home />} />
         <Route path="/noahpn/about" element={<About />} />
         <Route path="/noahpn/projects" element={<Projects />} />
         <Route path="/noahpn/contact" element={<Contact />} />

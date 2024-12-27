@@ -15,7 +15,9 @@ Logo.propTypes = {
 function Skills() {
   return (
     <div className="bg-black bg-opacity-50 rounded-lg p-3 fade-in-right">
-      <h1 className="font-bold text-lg text-center text-purple-300">Skills</h1>
+      <h1 className="font-bold text-lg text-center text-purple-300">
+        My Skillset
+      </h1>
 
       {/* Languages */}
       <h3 className="font-semibold text-purple-300">Languages</h3>
