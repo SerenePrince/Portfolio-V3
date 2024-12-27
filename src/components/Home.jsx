@@ -32,7 +32,7 @@ function Home() {
               contribute my skills as a programmer.
             </p>
             <a
-              href="./documents/NoahPN_Resume_2025.pdf"
+              href="./documents/NoahPNResume2025.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-2 py-2 rounded bg-purple-300 hover:bg-white hover:text-purple-300 transition mt-2 fade-in-right inline-flex items-center gap-1"

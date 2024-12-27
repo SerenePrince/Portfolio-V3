@@ -7,7 +7,9 @@ function Education() {
       <h2 className="font-bold text-md text-purple-300">
         Computer Engineering Technology - Computer Science
       </h2>
-      <h3>Algonquin College | Ottawa, ON | Jan 2023 - Dec 2025 (Expected)</h3>
+      <h3 className="font-semibold">
+        Algonquin College | Ottawa, ON | Jan 2023 - Dec 2025 (Expected)
+      </h3>
       <p className="text-sm">
         Currently pursuing a degree with a focus on software development and
         computer science concepts. Relevant coursework includes Object-Oriented
