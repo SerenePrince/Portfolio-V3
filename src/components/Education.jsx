@@ -11,10 +11,9 @@ function Education() {
         Algonquin College | Ottawa, ON | Jan 2023 - Dec 2025 (Expected)
       </h3>
       <p className="text-sm">
-        Currently pursuing a degree with a focus on software development and
-        computer science concepts. Relevant coursework includes Object-Oriented
-        Programming, Data Structures, Web Programming, Java Application
-        Programming, Introduction to Databases, and Network Programming Basics.
+        Relevant coursework includes Object-Oriented Programming, Data
+        Structures, Web Programming, Java Application Programming, Introduction
+        to Databases, and Network Programming Basics.
       </p>
     </div>
   );
