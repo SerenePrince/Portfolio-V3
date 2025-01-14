@@ -59,10 +59,10 @@ function App() {
     >
       <Header />
       <Routes>
-        <Route path="/noahpn" element={<Home />} />
-        <Route path="/noahpn/about" element={<About />} />
-        <Route path="/noahpn/projects" element={<Projects />} />
-        <Route path="/noahpn/contact" element={<Contact />} />
+        <Route path="/Portfolio-V3" element={<Home />} />
+        <Route path="/Portfolio-V3/about" element={<About />} />
+        <Route path="/Portfolio-V3/projects" element={<Projects />} />
+        <Route path="/Portfolio-V3/contact" element={<Contact />} />
       </Routes>
     </div>
   );
