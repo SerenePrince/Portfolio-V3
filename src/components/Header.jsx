@@ -4,10 +4,10 @@ function Header() {
   const location = useLocation();
 
   const navLinks = [
-    { path: "/noahpn/", label: "Home" },
-    { path: "/noahpn/about", label: "About" },
-    { path: "/noahpn/projects", label: "Projects" },
-    { path: "/noahpn/contact", label: "Contact" },
+    { path: "/Portfolio-V3/", label: "Home" },
+    { path: "/Portfolio-V3/about", label: "About" },
+    { path: "/Portfolio-V3/projects", label: "Projects" },
+    { path: "/Portfolio-V3/contact", label: "Contact" },
   ];
 
   return (
