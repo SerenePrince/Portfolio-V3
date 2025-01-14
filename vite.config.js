@@ -5,5 +5,5 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   resolve: { extensions: [".js", ".ts", ".tsx", ".jsx"] },
   plugins: [react()],
-  base: "/noahpn/",
+  base: "/Portfolio-V3/",
 });
